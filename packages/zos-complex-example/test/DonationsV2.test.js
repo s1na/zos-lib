@@ -1,7 +1,7 @@
 'use strict'
 require('./setup')
 
-import { Contracts, encodeCall } from 'zos-lib'
+import { Contracts, encodeCall } from '@zos/core'
 import shouldBehaveLikeDonationsWithTokens from './behaviors/DonationsWithTokens.behavior.js'
 
 const DonationsV2 = Contracts.getFromLocal('DonationsV2');

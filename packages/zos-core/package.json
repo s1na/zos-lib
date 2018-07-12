@@ -1,5 +1,5 @@
 {
-  "name": "@zos",
+  "name": "@zos/core",
   "version": "1.2.1",
   "description": "ZeppelinOS library",
   "scripts": {

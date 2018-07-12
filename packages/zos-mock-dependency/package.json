@@ -1,6 +1,6 @@
 {
-  "name": "mock-dependency",
-  "version": "1.1.0",
+  "name": "@zos/mock-dependency",
+  "version": "1.2.1",
   "description": "Mock dependency for tests in zos-lib",
   "main": "truffle.js",
   "private": true,

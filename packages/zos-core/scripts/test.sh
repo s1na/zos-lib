@@ -10,7 +10,7 @@ run_lib_tests() {
 run_example_tests() {
   echo "Testing examples..."
   npm run prepack
-  cd examples/complex
+  cd ../zos-complex-example
   npm i
   npm test
 }

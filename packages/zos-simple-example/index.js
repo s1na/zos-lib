@@ -1,9 +1,9 @@
 'use strict';
 
-const { Contracts } = require('zos-lib')
+const { Contracts } = require('@zos/core')
 const MyContract_v0 = Contracts.getFromLocal('MyContract_v0');
 const MyContract_v1 = Contracts.getFromLocal('MyContract_v1');
-const AdminUpgradeabilityProxy = Contracts.getFromNodeModules('zos-lib', 'AdminUpgradeabilityProxy');
+const AdminUpgradeabilityProxy = Contracts.getFromNodeModules('@zos/core', 'AdminUpgradeabilityProxy');
 
 module.exports = async function() {
   console.log('Deploying MyContract v0...');

@@ -1,6 +1,6 @@
 {
-  "name": "zos-lib-simple-example",
-  "version": "1.0.0",
+  "name": "@zos/simple-example",
+  "version": "1.2.1",
   "private": true,
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "license": "ISC",
   "dependencies": {
     "truffle": "^4.1.7",
-    "zos-lib": "0.0.4"
+    "@zos/core": "1.2.1"
   }
 }
